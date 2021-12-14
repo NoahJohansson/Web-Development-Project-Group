@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    background-color: rgb(212, 245, 217);
+    font-family: "Verdana";
+
+}
+.postButton{
+  
+
+}
+h2 {
+    color: navy;
+    margin-left: 20px;
+}
+#mediaContent{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #fff;
+}
+.header-1{
+    padding: 10px;
+    margin: 0px;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #037171;
+  }
+  
+.navbar  li {
+    float: left;
+  }
+  
+.navbar  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background-color: #160F29;
+  }
+
+  .active {
+    background-color: #22577A;
+  }
+
+  .formHeader{
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    height: 40px;
+  }
+  .formDiv{
+    background-color: #1abc9c;
+    width: 55%;
+    height: 500px;
+    border-style: solid;
+    border-color:#037171;
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Verdana";
+    font-size: 14px;
+  }
+
+  h3{
+    font-size: 16px;
+    font-family: Verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;
+  }
+
+  .collapsible {
+    background-color: #B3E9C7;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    font-family: Verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;
+  }
+
+  .active2, .collapsible:hover {
+    background-color: #C2F8CB;
+  }
+
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0,2s ease-out;
+    background-color: rgb(212, 245, 217);
+    margin-left: 16px;
+  }
+
+  #comment {
+    border: black;
+    border-width: 2px;
+  }
+
+  .postswithborder {
+    border-bottom: solid black;
+    margin-top: 10px;
+
+  }
+
+  .posts {
+    font-family: Verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;
+    margin-top: 10px;
+
+  }
+
+  #map {
+    height: 400px;
+    width:47%;
+    margin-top: 30px;
+    margin-left: 3%;
+    padding-right: 10px;
+    float:left;
+  }
+  #beerLocatorDiv {
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+  #searchInput{
+    margin-top: 30px;
+
+  }
+  #searchDiv{
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    margin-left: 10px;
+  }
